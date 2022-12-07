@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Substring {
 
-    static String[] kmerArrayCreation(String Input,int k){
+    public static String[] kmerArrayCreation(String Input,int k){
         ArrayList<String> temp=new ArrayList<>();
         int i = 0;
         while(i+k<Input.length()){
